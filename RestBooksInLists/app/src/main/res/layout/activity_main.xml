@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="415dp"
+        android:layout_height="684dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/favorites"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+
+        android:layout_marginStart="296dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/ic_baseline_star_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/returnbutt"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+
+        android:layout_marginStart="356dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/ic_baseline_keyboard_return_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/searchbutt"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+
+        android:layout_marginStart="236dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/ic_baseline_search_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+    </ImageView>
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="223dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:hint="Book name"
+        android:inputType="textPersonName"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

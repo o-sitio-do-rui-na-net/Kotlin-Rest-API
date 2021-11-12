@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clickable="true"
+    android:focusable="true"
+    app:cardElevation="12dp"
+>
+<LinearLayout
+    android:layout_width="130dp"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/black"
+    >
+
+    <ImageView
+        android:id="@+id/BOOK_IMAGE_VIEW"
+        android:layout_width="130dp"
+        android:layout_height="match_parent"
+        android:background="@color/design_default_color_primary"
+        android:scaleType="centerCrop"
+        android:layout_margin="5dp"/>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="133dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/TaskTextView"
+                android:layout_width="162dp"
+                android:layout_height="47dp"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:text="xxxxxxx"
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/favbutt"
+                android:layout_width="59dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/ic_baseline_star_border_24"
+
+
+                android:text="Button" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="103dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="xxxxxxx"
+            android:textColor="@color/black" />
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/authors"
+            android:layout_width="175dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="xxxxxxx"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:id="@+id/buybutt"
+            android:layout_width="42dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_baseline_open_in_browser_24"
+            />
+    </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
